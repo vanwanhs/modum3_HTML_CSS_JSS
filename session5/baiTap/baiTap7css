@@ -1,0 +1,36 @@
+.table {
+    width: 100%; 
+    border-collapse: collapse;
+}
+.table th, .table td {
+    border: 1px solid black; 
+    padding: 10px; 
+    text-align: center; 
+}
+
+.background{
+    background-color: rgb(128, 135, 141);
+}
+.head{
+    text-align: center;
+}
+.caption{
+    background-color: rgb(33, 43, 48);
+    color: white;
+}
+.bgr2, .bgr1{
+    background-color: rgb(138, 138, 17);
+}
+.green button{
+    background-color: green;
+}
+.yellow button{
+    background-color: yellow;
+}
+.red button{
+    background-color: red;
+}
+.green, .yellow , .red{
+    display: inline-block;
+        margin-right: 5px;
+}

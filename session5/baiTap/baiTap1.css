@@ -1,0 +1,15 @@
+
+       .head {
+            text-align: center; 
+        }
+        .heading {
+            color: white;
+            text-align: center;
+            background-color: black;
+            width: fit-content;
+            margin: auto;
+            padding: 10px;
+        }
+        figure {
+            text-align: center;
+        }
