@@ -1,36 +1,38 @@
-
+.header{
+    text-align: center;
+    padding: 15px;
+    background-color: green;
+}
+.header a{
+    margin: 0 25px;
+}
+.main{
+    display: flex;
+}
+.main .trai{
+    background-color: aquamarine;
+    width: 30%;
+    height: 550px;
+}
+.phai .bai_viet2{
+    border-bottom: 1px solid rgb(190, 186, 186);
+    width: 800px;
+}
 .main{
     display: flex;
     flex-wrap: nowrap;
     gap: 10px;
 }
-.trai{
-    border: 1px solid darkgrey;
-    background-color: #f1f1f1;
-    width: 40%;
-}
-.phai p{
-    border-bottom: 2px solid #f1f1f1;
-    width: 200%;
-    
-}
 .footer{
-    text-align: center;
-    background-color: darkgray;
-    padding: 20px 0;
+text-align: center;
+background-color: black;
+color: white;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 10px 20px;
+}
+h1{
     color: white;
-    font-size: larger;
-    flex-wrap:nowrap;
-    
-}
-html{
-    width: 800px;
-}
-.header{
-    text-align: center;
-    background-color: rgb(29, 31, 27);
-    padding: 20px 1px;
-}
-.Categories{
-    padding:  0 20px;
 }

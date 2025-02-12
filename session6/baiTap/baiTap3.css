@@ -4,6 +4,52 @@
 .headding{
     width: 70%;
 }
-.products{
-    text-spacing-trim: ;
+.headding1 a{
+    margin: 0 25px;
+}
+.main{
+    display: flex;
+}
+.main img{
+    border-radius: 50%;
+    border: 3px solid black;
+}
+.main{
+    display: flex;
+    width: 100%;
+    padding: 20px;
+}
+.foot{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+    padding: 20px;
+}
+.foot button {
+    flex: 1;
+    width: 350px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.foot button, .head{
+    background-color: rgb(102, 7, 7);
+    color: aliceblue;
+}
+.container{
+    background-color: azure;
+}
+.finish {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.finish, .main{
+    background-color: aqua;
 }

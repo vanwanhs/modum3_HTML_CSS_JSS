@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(231, 237, 240);
+}
+h2, .a{
+    display: inline-block;
+}
+h2 {
+    width: 60%;
+}
+.a a {
+    display: inline-block;
+    margin: 0 20px;
+    text-decoration: none;
+    color: white;
+}
+.get {
+        display: flex;
+        flex-direction: column; /* Xếp các phần tử theo chiều dọc */
+        justify-content: center; /* Căn giữa theo chiều dọc */
+        align-items: center; /* Căn giữa theo chiều ngang */
+        height: 50vh; /* Chiếm chiều cao màn hình */
+        text-align: center; /* Căn giữa văn bản */
+}
+.Feature{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px; /* Khoảng cách giữa các button */
+    width: 100%; /* Đảm bảo full màn hình */
+    padding: 20px;
+}
+.Feature button {
+    flex: 1; /* Mỗi nút sẽ giãn đều */
+    width: 350px; /* Giới hạn kích thước tối đa */
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+.footer{
+    text-align: center;
+    background-color: rgb(41, 37, 37);
+    color: aliceblue;
+    padding: 5px;
+}
+.get button{
+    width: 100px;
+    height: 40px;
+    border-radius: 8px;
+}
+.get button, .head{
+    background-color: green;
+    color: white;
+}
+.get, .Feature button{
+    background-color: rgb(192, 119, 23);
+}
