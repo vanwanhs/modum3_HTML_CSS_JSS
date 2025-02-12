@@ -6,9 +6,12 @@
     display: inline-block;
 }
 .text3{
+    height: 80px;
+    line-height: 75px;
     border: 5px solid rgb(9, 255, 0);
     color: black;
-   text-align: center
+    text-align: center
+    
    
 }
 .background{

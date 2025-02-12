@@ -1,0 +1,33 @@
+
+.main img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid red;
+}
+.main{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+.head{
+    align-items: center;
+    text-align: center;
+    background-color: #bbb;
+}
+.heading a{
+    text-decoration: none;
+}
+.heading{
+    background-color: blue;
+    color: wheat;
+    padding: 25px 0;
+}
+.About{
+    display: inline-block;
+    width: 100px;
+}
+.foot{
+    background-color: pink;
+}
