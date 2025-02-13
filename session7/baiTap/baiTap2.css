@@ -57,3 +57,17 @@
 .headding2 table {
     border-spacing: 30px; 
 }
+.head1 h2{
+    color: red;
+}
+.headding2 h2{
+    color: red;
+}
+.headding2 p{
+    color: rgb(233, 227, 227);
+    font-weight: 400;
+}
+.head1 h3{
+    color: white;
+    font-weight: 400;
+}

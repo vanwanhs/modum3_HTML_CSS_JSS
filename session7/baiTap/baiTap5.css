@@ -27,6 +27,7 @@
 .m5, .c5{
     display: inline-block;
     border-bottom: 1px solid rgb(119, 114, 114);
+    width: 80%;
 }
 .head{
     width: auto;;
