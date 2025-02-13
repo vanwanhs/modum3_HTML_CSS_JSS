@@ -1,14 +1,16 @@
-.body{
+html body{
     background-color: #f1f1f1;
     width: 300px;
-    height: 300px;
+    height: 800px;
 }
 form{
     background-color: white;
     border-radius: 15px ;
 }
-.headding{
+.headding input{
+    border: none;
     border-radius: 5px;
+    margin-top: 10px;
 }
 h1{
     text-align: center;

@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+}
+.head{
+    text-align: center;
+    justify-content: center;
+}
+.main{
+    text-align: center;
+}
+.m1, .c1{
+    display: inline-block;
+    border-bottom: 1px solid rgb(119, 114, 114);
+}
+.m2, .c2{
+    display: inline-block;
+    border-bottom: 1px solid rgb(119, 114, 114);
+}
+.m3, .c3{
+    display: inline-block;
+    border-bottom: 1px solid rgb(119, 114, 114);
+}
+.m4, .c4{
+    display: inline-block;
+    border-bottom: 1px solid rgb(119, 114, 114);
+}
+.m5, .c5{
+    display: inline-block;
+    border-bottom: 1px solid rgb(119, 114, 114);
+}
+.head{
+    width: auto;;
+    height: 510px;
+    background-color: rgb(216, 208, 208);
+    margin:0 810px auto 810px;
+    border-radius: 8px;
+}
+
+.headding1{
+    position: relative;
+    background-color: red;
+}
+.headding1 img{
+    position: absolute;
+    right: 0px;
+    top: 0;
+    margin-right: 0x;
+}
+.headding1 h2{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.footer .button1{
+    width: 190px;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;padding: 10px 20px; /* Tăng padding cho đẹp */
+    margin: 0 10px;
+    border-radius: 20px;
+    background-color: rgb(209, 12, 12);
+    color: #e6e0e0;
+    border: none;
+}
+.footer .button2{
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0 10px;
+    border-radius: 20px;
+    background-color: rgb(245, 235, 235);
+    color: red;
+    border: none;
+
+}
+.footer img{
+    background-color: red;
+}
+.main .c1, .main .c2, .main .c3, .main .c4, .main .c5{
+    color: rgb(69, 50, 105);
+}

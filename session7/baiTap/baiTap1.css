@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+.headding{
+    background-color: rgb(202, 196, 188);
+    font-family: 'Times New Roman', Times, serif;
+    color: #9400D3;
+    padding: 10px 15px;
+}
+.footer .button{
+    background-color: red;
+    border-radius: 5px;
+    border: none;
+    padding: 8px;
+    margin-left: -7px ;
+    margin-right: 20px;
+
+    }
+    .footer .button1{
+    border-radius: 5px;
+    padding: 8px;
+    background-color: rgb(202, 196, 188);
+}
+.footer{
+    display: flex;
+    margin-left: 0;
+    padding-top: 10px;
+}
+img{
+    vertical-align: middle;
+}
+
