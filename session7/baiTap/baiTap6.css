@@ -3,7 +3,7 @@ body {
     margin: 50px;
     background: #f9f9f9;
   }
-  .accordion {
+  .head {
     max-width: 600px;
     margin: 0 auto;
     border: 1px solid #ddd;
@@ -12,11 +12,11 @@ body {
     overflow: hidden;
   }
   
-  .accordion-item {
+  .item {
     border-bottom: 1px solid #ddd;
     position: relative;
   }
-  .accordion-item input[type="checkbox"] {
+  .item input[type="checkbox"] {
     display: none;
   }
   .accordion-header {
@@ -43,7 +43,7 @@ body {
   .accordion-body p {
     margin: 1rem 0;
   }
-  .accordion-item input[type="checkbox"]:checked ~ .accordion-body {
+  .item input[type="checkbox"]:checked ~ .accordion-body {
     max-height: 300px;
     padding: 1rem;
   }
