@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+.header{
+    width: 30%;
+    height: auto;
+    background-color: violet;
+}
+input{
+    margin: 20px;
+        padding: 15px; 
+        font-size: 18px;
+}
+textarea{
+    margin: 20px;
+        padding: 15px; 
+        font-size: 18px;
+        width: 570px;
+}
+label{
+    padding-left: 20px;
+    color: aliceblue;
+}
+.header button{
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    background-color: aliceblue;
+}

@@ -1,0 +1,44 @@
+ *{
+    box-sizing: border-box;
+}
+table{
+    padding-left: 150px;
+}
+ .bk1, .bk2, .bk3, .bk4{
+    position: relative;;
+    width: 70px;
+    height: 70px;
+    background-color: yellow;
+    border: 2px solid red;
+    transform: rotate(45deg);
+    margin-right: 50px;
+    right: 100px;
+    top: 100px;
+} 
+.text1_icon{
+    position:absolute;
+    left: 185px;
+    top: 300px;
+}
+.text2_icon{
+    position: absolute;
+    right: 875px;
+    top: 310px;
+}
+.text3_icon{
+    position: absolute;
+    left: 187px;
+    top: 610px;
+}
+.text4_icon{
+    position: absolute;
+    left: 877px;
+    top: 616px;
+}
+.text1, .text3{
+    margin-right: 50px;
+}
+h1{
+    padding-left: 50px;
+    text-decoration: underline solid red;
+}

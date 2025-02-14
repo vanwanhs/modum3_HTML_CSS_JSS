@@ -81,4 +81,16 @@ h1 {
     background-color: white;
     color: red;
     padding: 8px;
+    width: 60%;
+    padding: 10px;
+}
+.footer button{
+    display: flex;
+    flex-direction: column; /* Xếp các phần tử theo chiều dọc */
+    justify-content: center; /* Căn giữa theo chiều dọc */
+    align-items: center; /* Căn giữa theo chiều ngang */
+    text-align: center; /* Căn giữa văn bản */
+}
+.head{
+    border-left: 5px solid orange;
 }
