@@ -10,12 +10,14 @@ input{
     margin: 20px;
         padding: 15px; 
         font-size: 18px;
+        border-radius: 15px;
 }
 textarea{
     margin: 20px;
         padding: 15px; 
         font-size: 18px;
         width: 570px;
+        border-radius: 8px;
 }
 label{
     padding-left: 20px;
