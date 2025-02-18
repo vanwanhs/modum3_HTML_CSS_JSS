@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+.head{
+    display: flex;
+    height: 400px;
+    width: 600px;
+    background-color: rgb(136, 134, 134);
+    justify-content: center;
+    flex-direction: row;
+    border: 10px solid black;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.head .num{
+    margin-top: 20px;
+    text-align: center;
+    height: 150px;
+    width: 150px;
+    background-color: aqua;
+    justify-content: space-between;
+    padding-top: 70px;
+    border: none;
+
+}

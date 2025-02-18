@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+.head{
+    background-color: rgb(226, 226, 226);
+    border: 1px solid black;
+    width: 600px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head .center{
+    justify-items: center;
+    text-align: center;
+    background-color: aqua;
+    text-align: center;
+    width: 90px;
+    height: 90px;
+    padding-top: 20px;
+}

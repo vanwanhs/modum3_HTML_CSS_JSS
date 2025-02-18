@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+.head{
+    display: flex;
+    width: 1000px;
+    background-color: darkgray;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    border: 5px solid black;
+
+}
+.main, .footer{
+    padding: 90px;
+    width: 96.2%;
+    height: 170px;
+    background-color: aquamarine;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.main_1{
+    height: 580px;
+    background-color: red;
+    width: 25%;
+    padding-top: 300px ;
+}
+.main_2{
+    height: 580px;
+    background-color: green;
+    width: 70%;
+    padding-top: 300px;
+}
