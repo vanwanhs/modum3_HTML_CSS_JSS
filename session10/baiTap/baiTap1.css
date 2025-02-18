@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #e6e6e6;
+    padding: 15px 40px;
+}
+
+.logo {
+    font-size: 54px;
+    font-weight: bold;
+    font-family: "Brush Script MT", cursive;
+    margin-left: 200px;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+.menu li {
+    display: inline;
+    opacity: 0.5;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.search-box {
+    font-size: 20px;
+    background-color: gray;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 15px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.menu .strong{
+    color: black;
+}
+
